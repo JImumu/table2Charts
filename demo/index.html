@@ -1,0 +1,1901 @@
+
+
+
+
+
+
+
+<!-- top.jsp在这个位置，才能防止重启出错 -->
+
+
+	
+
+
+
+
+
+
+
+
+
+ 
+ 
+<table>
+<span id="project_list"></span>
+</table>
+ 
+<table border="0" width="100%"> 
+  <tr> 
+    <td align="left">                      
+<b>
+
+	
+		
+			
+				<a href="g.jsp?waf_module=Faq"><font color="red">知识问答</font></a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Subscribe">自运营订购</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=SubscribeCp">CP订购</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=LoginQueueList">实时登录</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=LoginList">历史登录</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Transfer">订购同步</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Pay2Queue">实时订购请求</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Pay2"><font color=red>历史订购请求</font></a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=UserLoginQueue">实时每分钟登录</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=UserLogin">历史每分钟登录</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=MinuteQueue">实时每分钟计费请求</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Minute">历史每分钟计费请求</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=OrderStatus">当前订购状态</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=OrderList">当前已订购业务列表</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=MiguUserFee"><font color=red>用户扣费列表</font></a>
+			
+		
+			
+		
+			
+		<br/>
+		
+		
+	
+		
+				<font color=red>运营配置:</font>
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Service">全局配置</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="http://was.ichile.com.cn/bill_closed/" target="_blank">批量限量</a>		
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=LimitCpProvinceDay">订购限量-日限量(CP)</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=LimitBillServiceProvinceDay">订购限量2-日量限制_配置</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=LimitBillServiceProvinceDayValidity">订购限量2-日量限制_生效</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=LimitBillServiceProvinceDayValidityByProvince">订购限量2-日量限制_生效(按省份)</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=LimitError"><font color=red>限量丢失计费统计</font></a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=LimitServicePrincipalPn">订购限量-负责人手机号</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=LimitServiceMsg">订购限量-短信记录</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=ConfCommon">监控配置</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Log">监控异常日志</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=BillStatus">订购状态码配置</a>
+			
+		
+			
+		
+			
+		<br/>
+		
+		
+	
+		
+			
+				<a href="http://wa.ichile.com.cn/migu.vsdk.webadmin/Use.jsp" target="_blank">使用情况</a>		
+			
+		
+			
+		
+	
+		
+			
+				<a href="http://wa.ichile.com.cn/migu.vsdk.webadmin/Visit.jsp" target="_blank">访问情况</a>		
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=PhoneBlack">手机黑名单</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="http://wa.ichile.com.cn/migu.vsdk.webadmin/UploadPhoneBlack.jsp" target="_blank">手机黑名单上传</a>		
+			
+		
+			
+		
+	
+		
+			
+				<a href="http://wa.ichile.com.cn/migu.vsdk.webadmin/Torder.jsp" target="_blank">订购历史查询</a>		
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=TorderSub">订购退订率</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=MoreOrder">多订购查询</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Subscribe_Duplicate">重复订购查询</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=MoreOrderStat">多订购统计查询</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=SubscribeAction">订购历史</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=MouthUnsubRate">每月月内退订率</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=MouthUnsubRateCp">分CP每月月内退订率</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=WeekUnsubRate">七天退订率</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=WeekUnsubRateCp">分CP七天退订率</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Sub_Preserved">VSDK分月留存</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Sub__bill_province__Preserved">VSDK计费点分月分省分留存</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=SubscribeAcListener">历史订购更新记录</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Mobile_news">手机报短信信息</a>
+			
+		
+			
+		
+			
+		<br/>
+		
+		
+	
+		
+				<font color=red>每日数据:</font>
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=RateDay">每日汇总报表</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Pay2StatusCodeStat">每日状态码统计</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Pay2_CP_StatusCodeStat">分CP每日状态码统计</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=RateCpDay">分CP</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=RateProvinceDay">分省</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=RateCpProvinceDay">分CP分省</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=DayBillServiceProvince">分移动计费业务点分省</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=DayBillServiceChannelProvince">分移动计费业务点分渠道分省</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=RateAppDay">分进程</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=RateAppGroupDay">分进程组</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=RateProvinceZeroDay">零转化省份</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=RateAppZeroDay">零转化进程</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=RateAppGroupZeroDay">零转化进程组</a>
+			
+		
+			
+		
+			
+		<br/>
+		
+		
+	
+		
+				<font color=red>分时数据:</font>
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Hour">分时汇总报表</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Hour1Channel">渠道报表</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Hour2CpProgram">节目报表</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Hour2Cp">CP报表</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Hour2CpChannel">CP渠道报表</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Hour2CpProgram">CP节目报表</a>
+			
+		
+			
+		
+			
+		<br/>
+		
+		
+	
+		
+				<font color=red>分钟数据:</font>
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=MinuteQueue">实时分钟汇总报表</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Minute">历史分钟汇总报表</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=MinuteCp"><font color=red>CP报表</font></a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=MinuteRateBreak">计费率中断报表</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=MinuteIsToPayBreak">可计费数中断报表</a>
+			
+		
+			
+		
+			
+		<br/>
+		
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=DaySdkSourceSubcribe">自运营-每日分渠道公司分包号</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=HourSdkSourceSubcribe">自运营-每小时分渠道公司分包号</a>
+			
+		
+			
+		
+			
+		<br/>
+		
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=DayProvinceSubscribe">自运营-每日分省份</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=HourProvinceSubscribe">自运营-每小时分省份</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=DayCpSubscribe">自运营-每日分自定义业务</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=DayCpChannelIDSubscribe">自运营-每日分自定义业务分计费渠道ID</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=DayCpProvinceSubscribe">自运营-每日分自定义业务分省份</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=HourCpProvinceSubscribe">自运营-每小时分自定义业务分省份</a>
+			
+		
+			
+		
+			
+		<br/>
+		
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=DayTotalSubscribe2">自运营-三日内每日总量统计</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=DayTotalSubscribe">自运营-全月每日总量统计</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=HourTotalSubscribe">自运营-今日每小时总量统计</a>
+			
+		
+			
+		
+			
+		<br/>
+		
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=RepeatSubscribe">重复订购详情</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=WafModule">菜单管理</a>
+			
+		
+			
+		
+			
+		<br/>
+		
+		
+	
+		
+				<font color="red">非法请求:</font>
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=LoginDisabled">禁用的CP的登录请求</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=LoginDuplicate">因请求太快而屏蔽的登录请求</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Pay2Duplicate">因请求太快而屏蔽的订购请求</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=SubscribeCpNoMobile">每日无手机号订购CP统计</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=SubscribeNoMobile">每日无手机号订购自运营统计</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Pay2DuplicateFullservice">订购前放弃计费</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=Pay2Giveup">订购中途放弃计费</a>
+			
+		
+			
+		
+			
+		<br/>
+		
+		
+	
+		
+				<font color="red">权限配置:</font>
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=WafModuleDisplay">可见菜单管理</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=WafModule">全部菜单管理</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=WafAdmin">用户管理</a>
+			
+		
+			
+		
+	
+		
+			
+				<a href="g.jsp?waf_module=WafLimit">权限配置</a>
+			
+		
+			
+		
+	
+	
+</b>                            
+     
+               
+    </td>            
+              
+    <td align="right">     
+           
+    	<b>            
+		            
+		                
+             <br>
+            
+&nbsp; </b>当前帐号:vsdk                       
+<a href="exit.jsp"><br><b>退出登陆</b></a>                             
+    </td>                        
+  </tr>                       
+</table>                       
+                       
+                       
+                          
+                       
+<br><br>
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+<title>每日汇总报表</title>
+</head>
+<body>
+
+<style type="text/css">
+<!--
+        table
+        {
+            border-collapse: collapse;
+            border: none;
+        }
+        
+p {  font-family: "宋体"; font-size: 9pt}
+td {font-size: 9pt ; line-height:normal; }
+A{text-transform: none; text-decoration: none;; font-size: 9pt}
+a:hover {text-decoration:underline; color: #FF0000; font-size: 9pt}
+body {  font-size: 9pt; background-color:#F3F3F3}
+
+a:link    {color:black;text-decoration:none;}
+a:visited {color:black;text-decoration:none;}
+a:hover   {color:red;text-decoration:underline;}
+input.radio {background: navyblue; color:#000000}
+font {  font-size: 9pt; line-height: 13pt; FONT-FAMILY:宋体, Arial, Helvetica}
+td {   border: solid #aaa 1px;font-size: 9pt; line-height: 20pt; FONT-FAMILY:宋体, Arial, Helvetica}
+textarea { BACKGROUND-COLOR: #e8e8e8; BORDER-BOTTOM: 1px double; BORDER-LEFT: 1px double; BORDER-RIGHT: 1px double; BORDER-TOP: 1px double; COLOR: #000000;; font-size: 9pt ;FONT-FAMILY:宋体, Arial, Helvetica}
+input { BACKGROUND-COLOR: #e8e8e8; BORDER-BOTTOM: 1px double; BORDER-LEFT: 1px double; BORDER-RIGHT: 1px double; BORDER-TOP: 1px double; COLOR: #000000;; font-size: 9pt; FONT-FAMILY:宋体, Arial, Helvetica}
+select { BACKGROUND-COLOR: #e8e8e8; BORDER-BOTTOM: 1px double; BORDER-LEFT: 1px double; BORDER-RIGHT: 1px double; BORDER-TOP: 1px double; COLOR: #000000;; font-size: 9pt; FONT-FAMILY:宋体, Arial, Helvetica}
+
+
+.disabled {
+}
+.disabled optgroup{
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+color:#CCCCCC;
+background-color: #F5F5F5;
+}
+.disabled option {
+padding-left:0px;
+}
+
+-->
+</style>
+
+
+
+<iframe name="targetIframe" style="display:none"></iframe>
+<DIV  
+	ID="id_PreviewTxtMoreInfo"
+	onmouseleave="hidePreviewTxtMoreInfo(this)"
+	ondblclick="hidePreviewTxtMoreInfo(this)"
+	STYLE="background-color: beige; background-repeat: repeat; background-attachment: scroll; height: 131; width: 229; visibility: hidden; position: absolute; left: 6; top: 355; border: 1px solid black; background-position: 0% 50%"> 
+</DIV>
+
+<DIV  
+	ID="id_EditTxtMoreInfo"
+	contentEditable="true"
+	onmouseleave="hideEditTxtMoreInfo(this)"
+	ondblclick="hideEditTxtMoreInfo(this)"
+	STYLE="background-color: beige; background-repeat: repeat; background-attachment: scroll; height: 131; width: 229; visibility: hidden; position: absolute; left: 6; top: 355; border: 1px solid black; background-position: 0% 50%">
+</DIV>
+
+<DIV  
+	ID="id_SelectMoreInfo" 
+	onmouseleave="hideSelectMoreInfo(this)" 
+	STYLE="background-color: beige; background-repeat: repeat; background-attachment: scroll; height: 131; width: 229; visibility: hidden; position: absolute; left: 6; top: 355; border: 1px solid black; background-position: 0% 50%">
+</DIV>
+
+<script>
+
+var currObject;
+
+function showPreviewTxtMoreInfo(txtAreaName)
+{
+
+	id_EditTxtMoreInfo.style.visibility="hidden";
+	id_SelectMoreInfo.style.visibility="hidden";
+	
+	var currDiv=id_PreviewTxtMoreInfo;
+	
+	currDiv.contentEditable=false;
+	currDiv.style.left = document.body.scrollLeft + event.clientX;
+	currDiv.style.top = document.body.scrollTop + event.clientY+5;
+	
+	currDiv.style.visibility="visible";
+
+	eval(currDiv.id+'.innerText='+txtAreaName+'.value');
+	
+
+	
+	return false;
+}
+
+function hidePreviewTxtMoreInfo(id) 
+{
+	id.style.visibility = "hidden";
+	return false;
+}
+
+
+
+function OnTrMouseOver(tr)
+{
+	/*
+	if(tr.id.indexOf('_edit')==-1)
+	{
+		if(tr.style.background!='#a9b592')
+		{
+			tr.style.background='#a5cbf7';
+		}
+	}
+	*/
+}
+function OnTrMouseOut(tr)
+{
+	/*
+	if(tr.id.indexOf('_edit')==-1)
+	{
+		//alert(tr.style.background);
+		if(tr.style.background!='#a5cbf7')
+		{
+			tr.style.background='';
+		}
+	}
+	*/
+
+}
+
+var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
+
+
+function  colorHex(rgb)
+{
+	var that = rgb;
+	if(/^(rgb|RGB)/.test(that)){
+		var aColor = that.replace(/(?:\(|\)|rgb|RGB)*/g,"").split(",");
+		var strHex = "#";
+		for(var i=0; i<aColor.length; i++){
+			var hex = Number(aColor[i]).toString(16);
+			if(hex === "0"){
+				hex += hex;	
+			}
+			strHex += hex;
+		}
+		if(strHex.length !== 7){
+			strHex = that;	
+		}
+		return strHex;
+	}else if(reg.test(that)){
+		var aNum = that.replace(/#/,"").split("");
+		if(aNum.length === 6){
+			return that;	
+		}else if(aNum.length === 3){
+			var numHex = "#";
+			for(var i=0; i<aNum.length; i+=1){
+				numHex += (aNum[i]+aNum[i]);
+			}
+			return numHex;
+		}
+	}else{
+		return that;	
+	}
+};
+
+function colorRgb(hex)
+{
+	var sColor = hex.toLowerCase();
+	if(sColor && reg.test(sColor)){
+		if(sColor.length === 4){
+			var sColorNew = "#";
+			for(var i=1; i<4; i+=1){
+				sColorNew += sColor.slice(i,i+1).concat(sColor.slice(i,i+1));	
+			}
+			sColor = sColorNew;
+		}
+		var sColorChange = [];
+		for(var i=1; i<7; i+=2){
+			sColorChange.push(parseInt("0x"+sColor.slice(i,i+2)));	
+		}
+		return "rgb(" + sColorChange.join(",") + ")";
+	}else{
+		return sColor;	
+	}
+};
+
+function OnTrClick(tr)
+{
+	var hex="#a5cbf7";
+	var currHex=colorHex(tr.style.backgroundColor);
+	var rgb = colorRgb("#a5cbf7");
+	var trRgb=tr.style.backgroundColor.replace(' ','');
+	
+	//alert(rgb);
+	//alert(trRgb);
+	//alert(tr.style.background);
+	
+	if(currHex!=hex)
+	{
+		tr.style.backgroundColor=hex;
+	}
+	else
+	{
+		tr.style.background='';
+	}
+}
+
+
+function OnEdit(tr)
+{
+	tr.style.display='none';
+	
+	cmd=tr.id+'_edit'+'.style.display=""  ';
+	
+	eval(cmd);
+	
+	cmd=tr.id+'_edit'+'.style.background="#A9B592"';
+	
+
+	eval(cmd);
+	
+	SetUpdateCommitID('');
+
+}
+
+function OnInsert(tr)
+{
+	id_tr_insert.style.display='';
+	SetUpdateCommitID('');
+	
+}
+
+function ShowEditCommitID()
+{
+	SetUpdateCommitID('');
+}
+function HiddenEditCommitID()
+{
+	var existsEdit=0;
+	objs=document.getElementsByTagName("td");
+	for(i=0;i<objs.length;i++)
+	{
+		if(objs[i].id.indexOf('_wolf_commit')>=0)
+		{
+			if(objs[i].style.display!='none')
+			{
+				existsEdit=1;
+				break;
+			}
+		}
+	}
+	if(!existsEdit)
+	{
+		SetUpdateCommitID('none');
+	}
+}
+function SetUpdateCommitID(status)
+{
+	objs=document.getElementsByTagName("td");
+	
+	for(i=0;i<objs.length;i++)
+	{
+		if(objs[i].id.indexOf('commit')>=0)
+		{
+			objs[i].style.display=status;
+		}
+	}	
+}
+
+function OnText(tr)
+{
+	tr.style.display='none';
+	cmd=tr.id;
+	cmd=cmd.replace('_edit','');
+	cmd=cmd+'.style.display=""  ';
+	eval(cmd);
+//	HiddenEditCommitID();
+
+}
+
+function HideInsertTr(tr)
+{
+	tr.style.display='none';
+	HiddenEditCommitID();
+}
+
+function showEditTxtMoreInfo(txtArea,isEdit)
+{
+	id_PreviewTxtMoreInfo.style.visibility="hidden";
+	id_SelectMoreInfo.style.visibility="hidden";
+	
+	var currDiv=id_EditTxtMoreInfo;
+	
+	currObject=txtArea;
+	
+	currDiv.style.left = document.body.scrollLeft + event.clientX;
+	currDiv.style.top = document.body.scrollTop + event.clientY+5;
+	currDiv.style.visibility = "visible";
+	currDiv.contentEditable=isEdit;
+
+	currDiv.innerText=txtArea.value;
+
+	return false;	
+}
+
+function hideEditTxtMoreInfo(id) 
+{
+	id.style.visibility = "hidden";
+	currObject.value=id.innerText;
+	currObject=null;
+	return false;
+}
+
+
+function showSelectMoreInfo(select)
+{
+	id_EditTxtMoreInfo.style.visibility="hidden";
+	id_PreviewTxtMoreInfo.style.visibility="hidden";
+
+		
+	currObject=select;
+	
+	var currDiv=id_SelectMoreInfo;
+	
+	currDiv.style.display = '';
+	currDiv.style.visibility='visible';
+	
+	currDiv.style.left = document.body.scrollLeft + event.clientX;
+	currDiv.style.top = document.body.scrollTop + event.clientY+5;
+
+
+
+	
+	var str='';
+	
+	for(var  i=0;i<select.options.length;i++)
+	{
+		str=str+'<div id='+i+' onmouseover="OnTrMouseOver(this)"  onmouseout="OnTrMouseOut(this)" ondblclick="setSelect(this)">'+select.options[i].text+'</div>';
+		
+	}
+	
+	currDiv.innerHTML=str;
+
+	return true;	
+}
+
+function setSelect(option)
+{
+	currObject.options[option.id].selected=true;
+	id_SelectMoreInfo.style.visibility = "hidden";
+
+}
+
+function hideSelectMoreInfo(select)
+{
+	id_SelectMoreInfo.style.visibility='hidden';
+	id_SelectMoreInfo.style.display='none';
+		
+}
+
+function getSelectText(obj,value)
+{
+	var strText='';
+	for(var i=0;i<obj.options.length;i++)
+	{
+		if(obj.options[i].value==value)
+		{
+			strText=obj.options[i].text;
+			break;
+		}
+	}
+
+	return strText;
+}
+
+function fillSelect(src,dest,defaultvalue)
+{
+	for(var i=0;i<src.options.length;i++)
+	{
+		var op=new Option(src.options[i].text,src.options[i].value); 
+		dest.options.add(op);
+		if(defaultvalue==src.options[i].value)
+		{
+			dest.options[i].selected=true;
+		}
+	}
+}
+
+var hanzi = false;
+function textCounter(obj) 
+{
+	var str=obj.value;
+	hanzi=false;
+	CalculateLen(str);
+	if(hanzi)
+	{
+		if(str.length>70)
+		{
+		    alert("您最多只能输入70个中文字符");
+		    obj.value=str.substring(0,70);
+		}
+	}
+	else
+	{
+		if (CalculateLen(str) > 140) 
+		{
+		    alert("您最多只能输入140个英文字符");
+			obj.value=str.substring(0,140);
+		}
+	}
+}
+
+//计算输入内容的的字数
+function CalculateLen(s)
+{
+	var count = 0;
+	for (var i=0;i<s.length;i++)
+	{
+		if (s.charAt(i) >=' ' && s.charAt(i)< '~')
+		{
+			count ++;
+		} else
+		{
+			count = count +2;
+			hanzi=true;
+		}
+	}
+	return count;
+} 
+</script>
+<style type="text/css">
+<!--
+        table
+        {
+            border-collapse: collapse;
+            border: none;
+        }
+        
+p {  font-family: "宋体"; font-size: 9pt}
+td {font-size: 9pt ; line-height:normal; }
+A{text-transform: none; text-decoration: none;; font-size: 9pt}
+a:hover {text-decoration:underline; color: #FF0000; font-size: 9pt}
+body {  font-size: 9pt; background-color:#F3F3F3}
+
+a:link    {color:black;text-decoration:none;}
+a:visited {color:black;text-decoration:none;}
+a:hover   {color:red;text-decoration:underline;}
+input.radio {background: navyblue; color:#000000}
+font {  font-size: 9pt; line-height: 13pt; FONT-FAMILY:宋体, Arial, Helvetica}
+td {   border: solid #aaa 1px;font-size: 9pt; line-height: 20pt; FONT-FAMILY:宋体, Arial, Helvetica}
+textarea { BACKGROUND-COLOR: #e8e8e8; BORDER-BOTTOM: 1px double; BORDER-LEFT: 1px double; BORDER-RIGHT: 1px double; BORDER-TOP: 1px double; COLOR: #000000;; font-size: 9pt ;FONT-FAMILY:宋体, Arial, Helvetica}
+input { BACKGROUND-COLOR: #e8e8e8; BORDER-BOTTOM: 1px double; BORDER-LEFT: 1px double; BORDER-RIGHT: 1px double; BORDER-TOP: 1px double; COLOR: #000000;; font-size: 9pt; FONT-FAMILY:宋体, Arial, Helvetica}
+select { BACKGROUND-COLOR: #e8e8e8; BORDER-BOTTOM: 1px double; BORDER-LEFT: 1px double; BORDER-RIGHT: 1px double; BORDER-TOP: 1px double; COLOR: #000000;; font-size: 9pt; FONT-FAMILY:宋体, Arial, Helvetica}
+
+
+.disabled {
+}
+.disabled optgroup{
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+color:#CCCCCC;
+background-color: #F5F5F5;
+}
+.disabled option {
+padding-left:0px;
+}
+
+-->
+</style>
+
+
+
+<iframe name="targetIframe" style="display:none"></iframe>
+<DIV  
+	ID="id_PreviewTxtMoreInfo"
+	onmouseleave="hidePreviewTxtMoreInfo(this)"
+	ondblclick="hidePreviewTxtMoreInfo(this)"
+	STYLE="background-color: beige; background-repeat: repeat; background-attachment: scroll; height: 131; width: 229; visibility: hidden; position: absolute; left: 6; top: 355; border: 1px solid black; background-position: 0% 50%"> 
+</DIV>
+
+<DIV  
+	ID="id_EditTxtMoreInfo"
+	contentEditable="true"
+	onmouseleave="hideEditTxtMoreInfo(this)"
+	ondblclick="hideEditTxtMoreInfo(this)"
+	STYLE="background-color: beige; background-repeat: repeat; background-attachment: scroll; height: 131; width: 229; visibility: hidden; position: absolute; left: 6; top: 355; border: 1px solid black; background-position: 0% 50%">
+</DIV>
+
+<DIV  
+	ID="id_SelectMoreInfo" 
+	onmouseleave="hideSelectMoreInfo(this)" 
+	STYLE="background-color: beige; background-repeat: repeat; background-attachment: scroll; height: 131; width: 229; visibility: hidden; position: absolute; left: 6; top: 355; border: 1px solid black; background-position: 0% 50%">
+</DIV>
+
+<script>
+
+var currObject;
+
+function showPreviewTxtMoreInfo(txtAreaName)
+{
+
+	id_EditTxtMoreInfo.style.visibility="hidden";
+	id_SelectMoreInfo.style.visibility="hidden";
+	
+	var currDiv=id_PreviewTxtMoreInfo;
+	
+	currDiv.contentEditable=false;
+	currDiv.style.left = document.body.scrollLeft + event.clientX;
+	currDiv.style.top = document.body.scrollTop + event.clientY+5;
+	
+	currDiv.style.visibility="visible";
+
+	eval(currDiv.id+'.innerText='+txtAreaName+'.value');
+	
+
+	
+	return false;
+}
+
+function hidePreviewTxtMoreInfo(id) 
+{
+	id.style.visibility = "hidden";
+	return false;
+}
+
+
+
+function OnTrMouseOver(tr)
+{
+	/*
+	if(tr.id.indexOf('_edit')==-1)
+	{
+		if(tr.style.background!='#a9b592')
+		{
+			tr.style.background='#a5cbf7';
+		}
+	}
+	*/
+}
+function OnTrMouseOut(tr)
+{
+	/*
+	if(tr.id.indexOf('_edit')==-1)
+	{
+		//alert(tr.style.background);
+		if(tr.style.background!='#a5cbf7')
+		{
+			tr.style.background='';
+		}
+	}
+	*/
+
+}
+
+var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
+
+
+function  colorHex(rgb)
+{
+	var that = rgb;
+	if(/^(rgb|RGB)/.test(that)){
+		var aColor = that.replace(/(?:\(|\)|rgb|RGB)*/g,"").split(",");
+		var strHex = "#";
+		for(var i=0; i<aColor.length; i++){
+			var hex = Number(aColor[i]).toString(16);
+			if(hex === "0"){
+				hex += hex;	
+			}
+			strHex += hex;
+		}
+		if(strHex.length !== 7){
+			strHex = that;	
+		}
+		return strHex;
+	}else if(reg.test(that)){
+		var aNum = that.replace(/#/,"").split("");
+		if(aNum.length === 6){
+			return that;	
+		}else if(aNum.length === 3){
+			var numHex = "#";
+			for(var i=0; i<aNum.length; i+=1){
+				numHex += (aNum[i]+aNum[i]);
+			}
+			return numHex;
+		}
+	}else{
+		return that;	
+	}
+};
+
+function colorRgb(hex)
+{
+	var sColor = hex.toLowerCase();
+	if(sColor && reg.test(sColor)){
+		if(sColor.length === 4){
+			var sColorNew = "#";
+			for(var i=1; i<4; i+=1){
+				sColorNew += sColor.slice(i,i+1).concat(sColor.slice(i,i+1));	
+			}
+			sColor = sColorNew;
+		}
+		var sColorChange = [];
+		for(var i=1; i<7; i+=2){
+			sColorChange.push(parseInt("0x"+sColor.slice(i,i+2)));	
+		}
+		return "rgb(" + sColorChange.join(",") + ")";
+	}else{
+		return sColor;	
+	}
+};
+
+function OnTrClick(tr)
+{
+	var hex="#a5cbf7";
+	var currHex=colorHex(tr.style.backgroundColor);
+	var rgb = colorRgb("#a5cbf7");
+	var trRgb=tr.style.backgroundColor.replace(' ','');
+	
+	//alert(rgb);
+	//alert(trRgb);
+	//alert(tr.style.background);
+	
+	if(currHex!=hex)
+	{
+		tr.style.backgroundColor=hex;
+	}
+	else
+	{
+		tr.style.background='';
+	}
+}
+
+
+function OnEdit(tr)
+{
+	tr.style.display='none';
+	
+	cmd=tr.id+'_edit'+'.style.display=""  ';
+	
+	eval(cmd);
+	
+	cmd=tr.id+'_edit'+'.style.background="#A9B592"';
+	
+
+	eval(cmd);
+	
+	SetUpdateCommitID('');
+
+}
+
+function OnInsert(tr)
+{
+	id_tr_insert.style.display='';
+	SetUpdateCommitID('');
+	
+}
+
+function ShowEditCommitID()
+{
+	SetUpdateCommitID('');
+}
+function HiddenEditCommitID()
+{
+	var existsEdit=0;
+	objs=document.getElementsByTagName("td");
+	for(i=0;i<objs.length;i++)
+	{
+		if(objs[i].id.indexOf('_wolf_commit')>=0)
+		{
+			if(objs[i].style.display!='none')
+			{
+				existsEdit=1;
+				break;
+			}
+		}
+	}
+	if(!existsEdit)
+	{
+		SetUpdateCommitID('none');
+	}
+}
+function SetUpdateCommitID(status)
+{
+	objs=document.getElementsByTagName("td");
+	
+	for(i=0;i<objs.length;i++)
+	{
+		if(objs[i].id.indexOf('commit')>=0)
+		{
+			objs[i].style.display=status;
+		}
+	}	
+}
+
+function OnText(tr)
+{
+	tr.style.display='none';
+	cmd=tr.id;
+	cmd=cmd.replace('_edit','');
+	cmd=cmd+'.style.display=""  ';
+	eval(cmd);
+//	HiddenEditCommitID();
+
+}
+
+function HideInsertTr(tr)
+{
+	tr.style.display='none';
+	HiddenEditCommitID();
+}
+
+function showEditTxtMoreInfo(txtArea,isEdit)
+{
+	id_PreviewTxtMoreInfo.style.visibility="hidden";
+	id_SelectMoreInfo.style.visibility="hidden";
+	
+	var currDiv=id_EditTxtMoreInfo;
+	
+	currObject=txtArea;
+	
+	currDiv.style.left = document.body.scrollLeft + event.clientX;
+	currDiv.style.top = document.body.scrollTop + event.clientY+5;
+	currDiv.style.visibility = "visible";
+	currDiv.contentEditable=isEdit;
+
+	currDiv.innerText=txtArea.value;
+
+	return false;	
+}
+
+function hideEditTxtMoreInfo(id) 
+{
+	id.style.visibility = "hidden";
+	currObject.value=id.innerText;
+	currObject=null;
+	return false;
+}
+
+
+function showSelectMoreInfo(select)
+{
+	id_EditTxtMoreInfo.style.visibility="hidden";
+	id_PreviewTxtMoreInfo.style.visibility="hidden";
+
+		
+	currObject=select;
+	
+	var currDiv=id_SelectMoreInfo;
+	
+	currDiv.style.display = '';
+	currDiv.style.visibility='visible';
+	
+	currDiv.style.left = document.body.scrollLeft + event.clientX;
+	currDiv.style.top = document.body.scrollTop + event.clientY+5;
+
+
+
+	
+	var str='';
+	
+	for(var  i=0;i<select.options.length;i++)
+	{
+		str=str+'<div id='+i+' onmouseover="OnTrMouseOver(this)"  onmouseout="OnTrMouseOut(this)" ondblclick="setSelect(this)">'+select.options[i].text+'</div>';
+		
+	}
+	
+	currDiv.innerHTML=str;
+
+	return true;	
+}
+
+function setSelect(option)
+{
+	currObject.options[option.id].selected=true;
+	id_SelectMoreInfo.style.visibility = "hidden";
+
+}
+
+function hideSelectMoreInfo(select)
+{
+	id_SelectMoreInfo.style.visibility='hidden';
+	id_SelectMoreInfo.style.display='none';
+		
+}
+
+function getSelectText(obj,value)
+{
+	var strText='';
+	for(var i=0;i<obj.options.length;i++)
+	{
+		if(obj.options[i].value==value)
+		{
+			strText=obj.options[i].text;
+			break;
+		}
+	}
+
+	return strText;
+}
+
+function fillSelect(src,dest,defaultvalue)
+{
+	for(var i=0;i<src.options.length;i++)
+	{
+		var op=new Option(src.options[i].text,src.options[i].value); 
+		dest.options.add(op);
+		if(defaultvalue==src.options[i].value)
+		{
+			dest.options[i].selected=true;
+		}
+	}
+}
+
+var hanzi = false;
+function textCounter(obj) 
+{
+	var str=obj.value;
+	hanzi=false;
+	CalculateLen(str);
+	if(hanzi)
+	{
+		if(str.length>70)
+		{
+		    alert("您最多只能输入70个中文字符");
+		    obj.value=str.substring(0,70);
+		}
+	}
+	else
+	{
+		if (CalculateLen(str) > 140) 
+		{
+		    alert("您最多只能输入140个英文字符");
+			obj.value=str.substring(0,140);
+		}
+	}
+}
+
+//计算输入内容的的字数
+function CalculateLen(s)
+{
+	var count = 0;
+	for (var i=0;i<s.length;i++)
+	{
+		if (s.charAt(i) >=' ' && s.charAt(i)< '~')
+		{
+			count ++;
+		} else
+		{
+			count = count +2;
+			hanzi=true;
+		}
+	}
+	return count;
+} 
+</script>
+<center><b>每日汇总报表</b></center>
+<table align=center width=100%  border="0"> 
+		<form action="?" method=get name=frm_query>  
+		<input type=hidden name="editmode" value="0">  
+		<input type=hidden name="waf_module" value="RateDay">  
+			<td  colspan='12'> 
+			&nbsp;<select  style='' name="yearSelect1"  id="">	<option value="1970" >1970</option>	<option value="1971" >1971</option>	<option value="1972" >1972</option>	<option value="1973" >1973</option>	<option value="1974" >1974</option>	<option value="1975" >1975</option>	<option value="1976" >1976</option>	<option value="1977" >1977</option>	<option value="1978" >1978</option>	<option value="1979" >1979</option>	<option value="1980" >1980</option>	<option value="1981" >1981</option>	<option value="1982" >1982</option>	<option value="1983" >1983</option>	<option value="1984" >1984</option>	<option value="1985" >1985</option>	<option value="1986" >1986</option>	<option value="1987" >1987</option>	<option value="1988" >1988</option>	<option value="1989" >1989</option>	<option value="1990" >1990</option>	<option value="1991" >1991</option>	<option value="1992" >1992</option>	<option value="1993" >1993</option>	<option value="1994" >1994</option>	<option value="1995" >1995</option>	<option value="1996" >1996</option>	<option value="1997" >1997</option>	<option value="1998" >1998</option>	<option value="1999" >1999</option>	<option value="2000" >2000</option>	<option value="2001" >2001</option>	<option value="2002" >2002</option>	<option value="2003" >2003</option>	<option value="2004" >2004</option>	<option value="2005" >2005</option>	<option value="2006" >2006</option>	<option value="2007" >2007</option>	<option value="2008" >2008</option>	<option value="2009" >2009</option>	<option value="2010" >2010</option>	<option value="2011" >2011</option>	<option value="2012" >2012</option>	<option value="2013" >2013</option>	<option value="2014" >2014</option>	<option value="2015" >2015</option>	<option value="2016" >2016</option>	<option value="2017"  selected>2017</option></select> 年 <select  style='' name="monthSelect1"  id="">	<option value="01" >01</option>	<option value="02" >02</option>	<option value="03" >03</option>	<option value="04" >04</option>	<option value="05" >05</option>	<option value="06" >06</option>	<option value="07" >07</option>	<option value="08"  selected>08</option>	<option value="09" >09</option>	<option value="10" >10</option>	<option value="11" >11</option>	<option value="12" >12</option></select> 月 <select  style='' name="daySelect1"  id="">	<option value="01" >01</option>	<option value="02" >02</option>	<option value="03" >03</option>	<option value="04" >04</option>	<option value="05" >05</option>	<option value="06" >06</option>	<option value="07" >07</option>	<option value="08" >08</option>	<option value="09"  selected>09</option>	<option value="10" >10</option>	<option value="11" >11</option>	<option value="12" >12</option>	<option value="13" >13</option>	<option value="14" >14</option>	<option value="15" >15</option>	<option value="16" >16</option>	<option value="17" >17</option>	<option value="18" >18</option>	<option value="19" >19</option>	<option value="20" >20</option>	<option value="21" >21</option>	<option value="22" >22</option>	<option value="23" >23</option>	<option value="24" >24</option>	<option value="25" >25</option>	<option value="26" >26</option>	<option value="27" >27</option>	<option value="28" >28</option>	<option value="29" >29</option>	<option value="30" >30</option>	<option value="31" >31</option></select> 日  ===> <select  style='' name="yearSelect2"  id="">	<option value="1970" >1970</option>	<option value="1971" >1971</option>	<option value="1972" >1972</option>	<option value="1973" >1973</option>	<option value="1974" >1974</option>	<option value="1975" >1975</option>	<option value="1976" >1976</option>	<option value="1977" >1977</option>	<option value="1978" >1978</option>	<option value="1979" >1979</option>	<option value="1980" >1980</option>	<option value="1981" >1981</option>	<option value="1982" >1982</option>	<option value="1983" >1983</option>	<option value="1984" >1984</option>	<option value="1985" >1985</option>	<option value="1986" >1986</option>	<option value="1987" >1987</option>	<option value="1988" >1988</option>	<option value="1989" >1989</option>	<option value="1990" >1990</option>	<option value="1991" >1991</option>	<option value="1992" >1992</option>	<option value="1993" >1993</option>	<option value="1994" >1994</option>	<option value="1995" >1995</option>	<option value="1996" >1996</option>	<option value="1997" >1997</option>	<option value="1998" >1998</option>	<option value="1999" >1999</option>	<option value="2000" >2000</option>	<option value="2001" >2001</option>	<option value="2002" >2002</option>	<option value="2003" >2003</option>	<option value="2004" >2004</option>	<option value="2005" >2005</option>	<option value="2006" >2006</option>	<option value="2007" >2007</option>	<option value="2008" >2008</option>	<option value="2009" >2009</option>	<option value="2010" >2010</option>	<option value="2011" >2011</option>	<option value="2012" >2012</option>	<option value="2013" >2013</option>	<option value="2014" >2014</option>	<option value="2015" >2015</option>	<option value="2016" >2016</option>	<option value="2017"  selected>2017</option></select> 年 <select  style='' name="monthSelect2"  id="">	<option value="01" >01</option>	<option value="02" >02</option>	<option value="03" >03</option>	<option value="04" >04</option>	<option value="05" >05</option>	<option value="06" >06</option>	<option value="07" >07</option>	<option value="08"  selected>08</option>	<option value="09" >09</option>	<option value="10" >10</option>	<option value="11" >11</option>	<option value="12" >12</option></select> 月 <select  style='' name="daySelect2"  id="">	<option value="01" >01</option>	<option value="02" >02</option>	<option value="03" >03</option>	<option value="04" >04</option>	<option value="05" >05</option>	<option value="06" >06</option>	<option value="07" >07</option>	<option value="08" >08</option>	<option value="09" >09</option>	<option value="10" >10</option>	<option value="11" >11</option>	<option value="12" >12</option>	<option value="13" >13</option>	<option value="14"  selected>14</option>	<option value="15" >15</option>	<option value="16" >16</option>	<option value="17" >17</option>	<option value="18" >18</option>	<option value="19" >19</option>	<option value="20" >20</option>	<option value="21" >21</option>	<option value="22" >22</option>	<option value="23" >23</option>	<option value="24" >24</option>	<option value="25" >25</option>	<option value="26" >26</option>	<option value="27" >27</option>	<option value="28" >28</option>	<option value="29" >29</option>	<option value="30" >30</option>	<option value="31" >31</option></select> 日 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+			</td> 
+		</tr> 
+		<tr align=center id='id_tr_select' style="display:'';background:#A9B592" > 
+		<td align=center id=id_waf_commitselect1 style=display:''><input type=submit name=waf_commit_select value='搜' ></td>
+			<input type=hidden name=w_ft_rate_day__id value="1">
+			<input type=hidden name=w_qm_rate_day__id value="1">
+			<input type=hidden name='waf_f_rate_day__id' value=''>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td align=center id=id_waf_commitselect1 style=display:''><input type=submit name=waf_commit_select value='搜' ></td>
+		<input type=hidden name=waf_tablename value="T id,date,imsi_count,login_suc_imsi_count,subs_count,round(login_rate*100),round(rate*100),round(rate_exclude_zero_province*100),round(subs_count/login_suc_imsi_count*100),update_time FROM migu_vsdk_stat.rate_day">
+		</tr> 
+		<tr> 
+			<td colspan='12'>  
+			</td> 
+		</tr> 
+		</form> 
+	<tr align=center class="keysContainer" onmouseover=OnTrMouseOver(this)  onmouseout=OnTrMouseOut(this)  > 
+		<td></td>
+		<td id='id_td01' class="waf_chart_x" align=center ><b>日期</b></td>
+		<td id='id_td02' class="waf_chart_y" waf-belong-chart="用户" align=center ><b>用户数</b></td>
+		<td id='id_td03' class="waf_chart_y" waf-belong-chart="用户,登录用户" align=center ><b>登录用户数</b></td>
+		<td id='id_td04' class="waf_chart_y" waf-belong-chart="订购数" waf-chart-unit="个" align=center ><b>订购数</b></td>
+		<td id='id_td05' class="waf_chart_y" waf-belong-chart="转化率" waf-chart-unit="%" align=center ><b>登录转化率</b></td>
+		<td id='id_td06' class="waf_chart_y" waf-belong-chart="转化率,订购转化率" waf-chart-unit="%" align=center ><b><font color=red>订购转化率</font></b></td>
+		<td id='id_td07' class="waf_chart_y" waf-belong-chart="转化率,订购转化率" waf-chart-unit="%" align=center ><b>订购转化率2</b></td>
+		<td id='id_td08' class="waf_chart_y" waf-belong-chart="转化率" waf-chart-unit="%" align=center ><b>订购登录比</b></td>
+		<td id='id_td09' class="waf_chart_x" align=center ><b>统计时间</b></td>
+	</tr> 
+	<tr align=center  class="valueContainer" id='id_tr01' onmouseover=OnTrMouseOver(this)  onmouseout=OnTrMouseOut(this) onclick=OnTrClick(this) > 
+		<td align=center id=id='id_read_td01-1'   style=display:''></td>
+		<td id='id_read_td011'  >2017-08-09</td>
+		<td id='id_read_td012'  >19410</td>
+		<td id='id_read_td013'  >1700</td>
+		<td id='id_read_td014'  >3230</td>
+		<td id='id_read_td015'  >25%</td>
+		<td id='id_read_td016'  >17%</td>
+		<td id='id_read_td017'  >17%</td>
+		<td id='id_read_td018'  >null%</td>
+		<td id='id_read_td019' class="waf_chart_x_1 value" >2017-08-10 01:20:49</td>
+	</tr> 
+	<tr align=center  class="valueContainer" id='id_tr02' onmouseover=OnTrMouseOver(this)  onmouseout=OnTrMouseOut(this) onclick=OnTrClick(this) > 
+		<td align=center id=id='id_read_td02-1'   style=display:''></td>
+		<td id='id_read_td021' class="waf_chart_x_1 value" >2017-08-10</td>
+		<td id='id_read_td022'  >21239</td>
+		<td id='id_read_td023'  >1900</td>
+		<td id='id_read_td024'  >3666</td>
+		<td id='id_read_td025'  >22%</td>
+		<td id='id_read_td026'  >17%</td>
+		<td id='id_read_td027'  >18%</td>
+		<td id='id_read_td028'  >null%</td>
+		<td id='id_read_td029' class="waf_chart_x_1 value" >2017-08-11 01:20:34</td>
+	</tr> 
+	<tr align=center  class="valueContainer" id='id_tr03' onmouseover=OnTrMouseOver(this)  onmouseout=OnTrMouseOut(this) onclick=OnTrClick(this) > 
+		<td align=center id=id='id_read_td03-1'   style=display:''></td>
+		<td id='id_read_td031' class="waf_chart_x_1 value" >2017-08-11</td>
+		<td id='id_read_td032'  >26405</td>
+		<td id='id_read_td033'  >1800</td>
+		<td id='id_read_td034'  >4782</td>
+		<td id='id_read_td035'  >21%</td>
+		<td id='id_read_td036'  >18%</td>
+		<td id='id_read_td037'  >18%</td>
+		<td id='id_read_td038'  >null%</td>
+		<td id='id_read_td039' class="waf_chart_x_1 value" >2017-08-12 01:20:10</td>
+	</tr> 
+	<tr align=center  class="valueContainer" id='id_tr04' onmouseover=OnTrMouseOver(this)  onmouseout=OnTrMouseOut(this) onclick=OnTrClick(this) > 
+		<td align=center id=id='id_read_td04-1'   style=display:''></td>
+		<td id='id_read_td041' class="waf_chart_x_1 value" >2017-08-12</td>
+		<td id='id_read_td042'  >35977</td>
+		<td id='id_read_td043'  >1500</td>
+		<td id='id_read_td044'  >5516</td>
+		<td id='id_read_td045'  >14%</td>
+		<td id='id_read_td046'  >15%</td>
+		<td id='id_read_td047'  >15%</td>
+		<td id='id_read_td048'  >null%</td>
+		<td id='id_read_td049' class="waf_chart_x_1 value" >2017-08-13 01:20:13</td>
+	</tr> 
+	<tr align=center  class="valueContainer" id='id_tr05' onmouseover=OnTrMouseOver(this)  onmouseout=OnTrMouseOut(this) onclick=OnTrClick(this) > 
+		<td align=center id=id='id_read_td05-1'   style=display:''></td>
+		<td id='id_read_td051' class="waf_chart_x_1 value" >2017-08-13</td>
+		<td id='id_read_td052'  >34624</td>
+		<td id='id_read_td053'  >1100</td>
+		<td id='id_read_td054'  >5483</td>
+		<td id='id_read_td055'  >12%</td>
+		<td id='id_read_td056'  >16%</td>
+		<td id='id_read_td057'  >16%</td>
+		<td id='id_read_td058'  >null%</td>
+		<td id='id_read_td059' class="waf_chart_x_1 value" >2017-08-14 01:20:58</td>
+	</tr> 
+	<tr align=center  class="valueContainer" id='id_tr06' onmouseover=OnTrMouseOver(this)  onmouseout=OnTrMouseOut(this) onclick=OnTrClick(this) > 
+		<td align=center id=id='id_read_td06-1'   style=display:''></td>
+		<td id='id_read_td061' class="waf_chart_x_1 value" >2017-08-14</td>
+		<td id='id_read_td062'  >9910</td>
+		<td id='id_read_td063'  >1300</td>
+		<td id='id_read_td064'  >1820</td>
+		<td id='id_read_td065'  >5%</td>
+		<td id='id_read_td066'  >18%</td>
+		<td id='id_read_td067'  >19%</td>
+		<td id='id_read_td068'  >null%</td>
+		<td id='id_read_td069' class="waf_chart_x_1 value" >2017-08-14 10:00:23</td>
+	</tr> 
+	<tr> 
+	<td align=center><b>总计</b></td> 
+	<td align=center></td> 
+	<td align=center>147565</td> 
+	<td align=center></td> 
+	<td align=center>24497</td> 
+	<td align=center></td> 
+	<td align=center></td> 
+	<td align=center></td> 
+	<td align=center></td> 
+	<td align=center></td> 
+	</tr> 
+</table>
+<p align=right>&nbsp;&nbsp;<a href=?waf_view=list&waf_module=RateDay>列表</a> &nbsp;&nbsp;<a href="javascript:frm_tocvs.submit();">数据导出</a><form action=./tocsv.jsp method=post name=frm_tocvs target=_blank><input type=hidden name=waf_commit_tocvs value=tocvs><input type=hidden name=waf_cvs_titlelist value='"日期","用户数","登录用户数","订购数","登录转化率","<font color=red>订购转化率</font>","订购转化率2","订购登录比","统计时间",'><input type=hidden name=waf_cvs_valuelist value='"2017-08-09","19410","0","3230","0","17","17","null","2017-08-10 01:20:49",@@@@@"2017-08-10","21239","0","3666","0","17","18","null","2017-08-11 01:20:34",@@@@@"2017-08-11","26405","0","4782","0","18","18","null","2017-08-12 01:20:10",@@@@@"2017-08-12","35977","0","5516","0","15","15","null","2017-08-13 01:20:13",@@@@@"2017-08-13","34624","0","5483","0","16","16","null","2017-08-14 01:20:58",@@@@@"2017-08-14","9910","0","1820","0","18","19","null","2017-08-14 10:00:23",@@@@@'></form></p>
+<br>
+<center>
+[第一页] [上一页] [下一页] [末一页]		第 1 页,<font color=green>当前查询条件下</font> 共 1 页, 共 6 条  
+</center>
+订购转化率2:排除零订购省份数据后的转化率
+
+<br><br>
+		
+</body>
+
+<script src=http://libs.baidu.com/jquery/1.9.1/jquery.min.js></script>
+<script src="https://cdn.bootcss.com/echarts/3.6.2/echarts.min.js"></script>
+<!-- <script src="https://cdn.bootcss.com/echarts/2.2.7/echarts.js"></script> -->
+<script src="../theme/dark.js"></script>
+<script src="../theme/infographic.js"></script>
+<script src="../theme/macarons.js"></script>
+<script src="../theme/roma.js"></script>
+<script src="../theme/shine.js"></script>
+<script src="../theme/vintage.js"></script>
+
+<script src="../jc.component.wafCharts.js"></script>
+<script src="./waf.Charts.js"></script>
+</html>
